@@ -8,7 +8,7 @@ https://viniciusborsato.com/snake
 
 
 ### 🔗 Links
-[![portfolio](https://img.shields.io/badge/meu_site-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://viniciusborsato.com)
+[![portfolio](https://img.shields.io/badge/me_encontre-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://viniciusborsato.com)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viniciusborsatoforte/)
 
