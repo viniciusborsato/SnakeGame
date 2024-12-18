@@ -1,4 +1,6 @@
-# Jogo da Cobrinha com JavaScript puro
+# Jogo da Cobrinha Anos 90
+
+### Usando JavaScript puro
 
 Ao carregar a index.html, verifica-se o user agent para detectar qual dispositivo é, redirecionando para versão desktop ou mobile.
 
