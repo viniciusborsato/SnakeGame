@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha</title>
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <script>
+        // Espera o DOM carregar
+        document.addEventListener("DOMContentLoaded", () => {
+            // Verifica o user agent para detectar dispositivos móveis
+            const isMobile = /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                // Redireciona para a página mobile
+                window.location.href = "mobile.html";
+            } else {
+                // Redireciona para a página desktop
+                window.location.href = "desktop.html";
+            }
+        });
+    </script>
+</body>
+</html>

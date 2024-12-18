@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Joystix';
+    src: url('../fonts/joystix-monospace.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Joystix', monospace, Helvetica, Arial, Sans-serif;
+    background-color: #fcfcfc;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 30px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+p {
+    font-size: .8em;
+}
+
+.aut p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+    margin-top: -10px;
+}
+
+.aut a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.aut a:hover {
+    text-decoration: underline;
+}
+
+#game-board {
+    position: relative;
+    width: 90%;
+    height: 0;
+    padding-bottom: 100%;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: #EEE;
+}
+
+.snake,
+.food {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+}
+
+.snake {
+    background-color: #333;
+}
+
+.food {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/food.png');
+    background-size: cover;
+}
+
+.x-mark {
+    width: 24px;
+    height: 24px;
+}
+
+.alert-game-over {
+    position: fixed;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%) scale(0);
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.alert-game-over.show-alert {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
